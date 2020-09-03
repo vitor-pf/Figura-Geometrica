@@ -1,0 +1,93 @@
+body,ul{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu{
+    width: 80%;
+    padding: 0% 10%;
+    background: #ccc;
+    box-shadow: 1px 1px 5px rgb(49, 48, 48);
+}
+ul{
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+}
+li{    
+    list-style: none;
+    margin: 20px 30px; 
+    display: flex;
+    justify-content: column;
+}
+li>a{    
+    text-decoration: none;
+    text-align: center;
+    color: #222;
+    text-transform: uppercase;
+}
+li>a:hover{
+    color: #666;
+}
+.icons{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin:0px auto 10px;
+}
+
+h1{
+    width: 92%;
+    margin: 4%;
+    color: #222;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+}
+#banner{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+
+
+
+
+#rodape{
+    position: fixed;
+    bottom: 0%;
+    left: 30%;
+    width: 40%;
+}
+
+#rodape>h4{    
+    display: block;
+    text-align: center;
+}
+h4>a{
+    text-decoration: none;
+    color: #333;
+}
+#voltar>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 10%;
+    color: #111;
+}
+#voltar>a:hover{
+    color: #666;
+}
+#banner>h3{
+    margin-right: 10%;
+}
+#quadrado,#retangulo,#triangulo,#circulo,#trapezio{
+    display: block;
+    width: 30%;
+    height: 30%;
+}
